@@ -1,0 +1,13 @@
+<div class="services">
+  <div class="container">
+    <h1> You book this room<h1>
+    <div class="col-md-6 services-left">
+      <h3> Room Detail</h3>
+        <%= render "rooms/room_#{@room.room_type_int}"%>
+    </div>
+    <div class="col-md-6 services-right">
+      <h3> Booking Detail</h3>
+        <%= render "booking"%>
+    </div>
+  </div>
+</div>
